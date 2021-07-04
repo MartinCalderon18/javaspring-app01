@@ -12,7 +12,7 @@ on:
 # 1. Set up the following secrets in your repository:
 #   AZURE_WEBAPP_PUBLISH_PROFILE
 #
-# 2. Change these variables for your configuration:
+# 2. Change these variables for your configurations:
 env:
   AZURE_WEBAPP_NAME: mundosepetclinic  # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: ${{ github.workspace }} # set this to the path to your web app project
